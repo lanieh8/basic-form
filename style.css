@@ -58,7 +58,12 @@ body {
 .form .column {
     display: flex;
     column-gap: 15px;
-    
+}
+
+@media screen and (max-width: 500px) {
+    .form .column {
+        flex-wrap: wrap;
+    }
 }
 
 
