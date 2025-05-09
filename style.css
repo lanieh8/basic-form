@@ -44,5 +44,16 @@ body {
     color: #333;
 }
 
+.form .input-box input {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
 
 
